@@ -1,0 +1,35 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  &__bottom {
+    position: relative;
+    &__img {
+      position: absolute;
+      z-index: 50;
+    }
+  }
+}
+
+.container {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.live-img {
+  height: 38rem;
+  width: 60%;
+}
+
+.push-img {
+}
+
+.takeover-img {
+}

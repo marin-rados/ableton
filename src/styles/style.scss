@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+.test {
+  width: 100%;
+  background-color: white;
+}
+
+//imports
+@import "./components/layout.scss";
+@import "./components/header.scss";
+@import "./components/intro.scss";
